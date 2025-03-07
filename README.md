@@ -30,40 +30,57 @@ Each folder should have the following structure:
    ```bash
    git clone https://github.com/yourusername/python-challenge.git
 
-2. **Navigate to the Appropriate Folder:**
-- Navigate to the PyBank or PyPoll folder depending on the challenge you want to run:
+# Python Challenge
 
-```bash
-cd python-challenge/PyBank
-or
+This repository contains two data analysis challenges: **PyBank** and **PyPoll**. The goal of each challenge is to analyze financial and election datasets and generate key insights.
 
-```bash
-cd python-challenge/PyPoll
+## Setup Instructions
 
-3. **Run the Python Script:**
+1. **Navigate to the Appropriate Folder**
 
--Ensure you have Python installed on your machine.
--Run the Python script using the following command:
-```bash
-python main.py
+    To navigate to the folder of the challenge you want to run (either **PyBank** or **PyPoll**), use the following commands:
 
-4. **View the Results:**
+    ```bash
+    cd python-challenge/PyBank
+    ```
 
-The script will print the analysis to the terminal.
-It will also generate a text file in the Analysis/ folder containing the same results.
+    or
 
-## **PyBank - Financial Analysis**
-# **Instructions**
-In the PyBank challenge, you are tasked with analyzing a financial dataset (budget_data.csv). The dataset includes two columns: "Date" and "Profit/Losses". The goal is to create a Python script that calculates the following:
+    ```bash
+    cd python-challenge/PyPoll
+    ```
 
-The total number of months included in the dataset.
-The net total amount of "Profit/Losses" over the entire period.
-The changes in "Profit/Losses" over the entire period, along with the average of those changes.
-The greatest increase in profits (date and amount) over the entire period.
-The greatest decrease in profits (date and amount) over the entire period.
-**Results**
+2. **Run the Python Script**
+
+    Make sure Python is installed on your machine. To run the Python script, use the following command:
+
+    ```bash
+    python main.py
+    ```
+
+3. **View the Results**
+
+    The script will print the analysis to the terminal and generate a text file in the `Analysis/` folder containing the same results.
+
+---
+
+## PyBank - Financial Analysis
+
+In this challenge, you are tasked with analyzing a financial dataset (`budget_data.csv`). The dataset contains two columns: **Date** and **Profit/Losses**.
+
+### Objectives
+
+Your goal is to create a Python script that calculates the following:
+
+- The total number of months included in the dataset.
+- The net total amount of "Profit/Losses" over the entire period.
+- The changes in "Profit/Losses" over the entire period, along with the average of those changes.
+- The greatest increase in profits (date and amount) over the entire period.
+- The greatest decrease in profits (date and amount) over the entire period.
+
+### Sample Results
+
 ```plaintext
-
 Financial Analysis
 ----------------------------
 Total Months: 86
@@ -71,29 +88,3 @@ Total: $22564198
 Average Change: $-8311.11
 Greatest Increase in Profits: Aug-16 ($1862002)
 Greatest Decrease in Profits: Feb-14 ($-1825558)
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## **PyPoll - Election Analysis**
-# **Instructions**
-
-In the PyPoll challenge, you are tasked with analyzing election data (election_data.csv). The dataset includes three columns: "Voter ID", "County", and "Candidate". The goal is to calculate the following:
-
-The total number of votes cast.
-A complete list of candidates who received votes.
-The percentage of votes each candidate won.
-The total number of votes each candidate won.
-The winner of the election based on the popular vote.
-
-**Results**
-```plaintext
-Election Results
--------------------------
-Total Votes: 369711
--------------------------
-Charles Casper Stockham: 23.049% (85213)
-Diana DeGette: 73.812% (272892)
-Raymon Anthony Doane: 3.139% (11606)
--------------------------
-Winner: Diana DeGette
--------------------------
-
