@@ -30,13 +30,8 @@ Each folder should have the following structure:
    ```bash
    git clone https://github.com/yourusername/python-challenge.git
 
-# Python Challenge
 
-This repository contains two data analysis challenges: **PyBank** and **PyPoll**. The goal of each challenge is to analyze financial and election datasets and generate key insights.
-
-## Setup Instructions
-
-1. **Navigate to the Appropriate Folder**
+2. **Navigate to the Appropriate Folder**
 
     To navigate to the folder of the challenge you want to run (either **PyBank** or **PyPoll**), use the following commands:
 
@@ -50,7 +45,7 @@ This repository contains two data analysis challenges: **PyBank** and **PyPoll**
     cd python-challenge/PyPoll
     ```
 
-2. **Run the Python Script**
+3. **Run the Python Script**
 
     Make sure Python is installed on your machine. To run the Python script, use the following command:
 
